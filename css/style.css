@@ -1,0 +1,299 @@
+body{
+     margin:0;
+     padding:0;
+     font-family:"scope one,serif">
+
+}
+.clearfix::after{
+          content:"";
+          display:block;
+          clear:both;
+}
+
+.header {
+         width:100%;
+         height:100%;
+         background-image: url("../img/banner.png");
+         color:#fff;
+         background-size: cover;
+         background-position: center top;
+}
+.header h3 {
+          float:left;
+          margin-left:10px;
+          font-size:15px;
+          margin-top:50px;
+
+}
+.header h3 span {
+           color:#3498db;
+           font-size:20px;
+}
+.header a {
+        text-decoration: none;
+        float:right;
+        margin-top:50px;
+        margin-right:10px;
+        color:#fff;  
+}
+.header a span {
+          margin-right:10px;
+
+}
+.header a:hover{
+           color:#3498db;
+}
+
+  /* banner starts here */
+.banner {
+        width:80%;
+        text-align:center;
+        clear:both;
+        margin:0 auto;
+        position:relative;
+        top:180px;
+                
+        
+    }
+.banner h1 {
+      font-size:40px;
+      margin-bottom:2px;
+
+      
+}
+.banner p {
+          line-height:25px;
+          font-weight:100;
+          
+}
+.banner button {
+           width:120px;
+           height:40px;
+           background-color: #3498db;
+           color:#fff;
+           font-family:"scope one,serif";
+           border:0;
+           border-radius:2%;
+}
+
+/* mid-sectio starts */
+
+.mid-section {
+      width:80%;
+      margin:0 auto;
+     margin-top:50px;
+
+}
+.mid-section .left{
+          float:left;
+          width:35%;
+          
+}
+.mid-section .left img{
+           width:100%;
+           border-radius:100%;
+           border:1px solid lightgray;
+           padding:5px;
+}
+
+.mid-section .right{
+          width:50%;
+          float:right;
+          margin-left:60px;
+          
+}
+.mid-section .right p {
+                    color:lightgray;
+           
+}
+.mid-section button{
+            width:118px;
+            height:40px;
+            background-color: #3498db;
+            color:#fff;
+            border:0;
+}
+/* mid-section finished */
+
+/* third-section starts */
+
+.third-section {
+        width:100%;
+        background-color: #3498db;
+        clear:both;
+        position:relative;
+        top:30px;
+
+}
+.third-section .sub-section{
+           width:80%;
+           margin:0 auto;
+           padding:30px;
+ }
+
+.third-section .sub-section .l1{
+         float:left;
+         width:45%;
+         margin-left:50px;
+         margin-top:30px;
+}
+.third-section .l1 h2 {
+         color:#fff;
+}
+
+.third-section .sub-section .l1 p {
+        color:lightgray;
+        font-weight:100;
+        line-height:20px;
+}
+
+
+.third-section .sub-section .l1 button{
+                      width:118px;
+                      height:40px;
+                      background-color:#fff;
+                      color:#3498db;
+                      border:0;
+}    
+
+.sub-section .r1{
+           width:40%;
+           float:right;
+}
+.sub-section .r1 img{
+         width:100%;
+         border-radius:100%;
+         border: 1px solid lightgray;
+         padding:5px;
+         margin-top:30px;
+}
+/* third-section finished */
+
+/* third-circle starts here */
+ .third-circle{
+          width:100%;
+          background-color:#e7e6e6;
+ }
+.last-section{
+
+         text-align:center; 
+         margin-top:60px;
+         width:95%;
+         margin:0 auto; 
+         background-color: #e7e6e6;    
+}
+.last-section h1{
+               font-size:30px;
+               margin-top:50px;
+           
+}
+.last-section p{
+           font-size:15px;
+           color:lightslategray;
+}
+.last-section .box1 {
+            width:30%;
+            float:left;
+}
+.box1 img {
+         border-radius:100%;
+         width:80%;
+         border:2px solid #e7e6e6;
+}
+.box1 button {
+          width:120px;
+          height:40px;
+          background-color: #3498db;
+          border:0;
+          color:#fff;
+}
+.both-margin{
+          margin-left:4.5%;
+          margin-right:4.5%;
+}
+
+
+/* footer starts */
+
+.footer {
+        text-align:center;
+        margin-top:40px;
+        color:gray;
+}
+.footer span {
+           font-size:25px;
+           padding:10px;
+           margin:10px;
+           border:1px solid #e7e5e6;
+           border-radius:100%;
+}
+.footer p {
+          font-size:15px;
+}
+
+/* MEDIA QUERY STARTS HERE */
+
+@media only screen and (max-width:800px){
+            
+            .banner {
+
+                   position:relative;
+                   top:30px;
+            }
+            .banner h1{
+                      font-size:30px;
+            }
+
+            .banner p {
+                      font-size:12px;
+            }
+            .banner button{
+                      width:100px;
+                      
+            }
+           
+            .mid-section .left{
+                      width:100%;
+                      clear:both;
+            }   
+            .mid-section .right{
+                   width:100%;
+                   clear:both;
+            } 
+            .mid-section .right h2 {
+                      text-align:center;
+                      color:#3498db;
+            } 
+            .mid-section .right p{
+                    text-align:center;
+            }
+            .mid-section .right button {
+                     display:block;
+                     margin:0 auto;
+            } 
+            .third-section .sub-section .l1{
+                    width:100%;
+                    clear:both;
+                    text-align:center;
+                    margin-left:0;
+                    margin-right:0;
+            }  
+            .sub-section .r1 {
+                         width:100%;
+                         clear:both;
+            }
+            .last-section .Box1{
+                     width:100%;
+                     clear:both;
+                
+            }
+            .Box1 img {
+                    width:90%;
+            }     
+            .both-margin{
+                    margin-left:0;
+                    margin-right:0;
+            }
+
+        
+}
